@@ -44,7 +44,7 @@ Because the Pcap library is used to capture raw packets, the capabilities
 of the Python interpreter need to be increased. This only needs to be
 done once.
 
-sudo setcap 'CAP_NET_RAW+eip CAP_NET_ADMIN+eip' /usr/bin/python2.7
+sudo setcap 'CAP_NET_RAW+eip CAP_NET_ADMIN+eip' /usr/bin/python3
 
 CAUTION: This allows any Python program to open network interfaces.
 
@@ -115,7 +115,7 @@ of a future DVB-S2 receiver in GNU Radio. The sink block can be
 tested with the flow graph dvbs2_rxip.grc in the /apps directory.
 This flow graph depends on the DVB-S2 receiver block in gr-dvbs2rx.
 
-https://github.com/drmpeg/gr-dvbs2rx
+https://github.com/drmpeg/gr-dvbs2rx38
 
 The test flow requires two TAP interfaces to be configured:
 
